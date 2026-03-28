@@ -9,19 +9,19 @@ public class ThreeSum {
 
         // Test 1: Expected [[-1,-1,2],[-1,0,1]]
         int[] nums1 = {-1, 0, 1, 2, -1, -4};
-        System.out.println("Test 1: " + ts.threeSum(nums1));
+        System.out.println("Test 1: " + ThreeSum.threeSum(nums1));
 
         // Test 2: Expected []
         int[] nums2 = {0, 1, 1};
-        System.out.println("Test 2: " + ts.threeSum(nums2));
+        System.out.println("Test 2: " + ThreeSum.threeSum(nums2));
 
         // Test 3: Expected [[0,0,0]]
         int[] nums3 = {0, 0, 0};
-        System.out.println("Test 3: " + ts.threeSum(nums3));
+        System.out.println("Test 3: " + ThreeSum.threeSum(nums3));
 
         // Test 4: Expected [[-2,0,2],[-2,1,1]]
         int[] nums4 = {-4, -2, -2, -2, 0, 1, 2, 2, 2};
-        System.out.println("Test 4: " + ts.threeSum(nums4));
+        System.out.println("Test 4: " + ThreeSum.threeSum(nums4));
     }
 
     public static List<List<Integer>> threeSum(int[] nums){
